@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Tony Andrew",
+        "review": "extremely powerful story of a young Southern Negro, from his late high school days through three years of college to his life in Harlem.",
+        "ratings": 4.5,
+        "picture": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    }
+    {
+        "id": 2,
+        "name": "Tramp",
+        "review": "extremely powerful story of a young Southern Negro, from his late high school days through three years of college to his life in Harlem.",
+        "ratings": 4.00,
+        "picture": "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    }
+    {
+        "id": 3,
+        "name": "Joe Baiden",
+        "review": "extremely powerful story of a young Southern Negro, from his late high school days through three years of college to his life in Harlem.",
+        "ratings": 4.6,
+        "picture": "https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    }
+    {
+        "id": 4,
+        "name": "Jon Bruce",
+        "review": "extremely powerful story of a young Southern Negro, from his late high school days through three years of college to his life in Harlem.",
+        "ratings": 4.2,
+        "picture": "https://images.unsplash.com/photo-1548372290-8d01b6c8e78c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    }
+    {
+        "id": 5,
+        "name": "Makron",
+        "review": "extremely powerful story of a young Southern Negro, from his late high school days through three years of college to his life in Harlem.",
+        "ratings": 4.7,
+        "picture": "https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    }
+    {
+        "id": 6,
+        "name": "Angelo Perera",
+        "review": "extremely powerful story of a young Southern Negro, from his late high school days through three years of college to his life in Harlem.",
+        "ratings": 4.9,
+        "picture": "https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    }
+]
