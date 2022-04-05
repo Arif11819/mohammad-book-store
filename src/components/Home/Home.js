@@ -1,11 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useReview from '../../hooks/customerReview';
 import Books from '../Books/Books';
 
 import './Home.css'
 
 const Home = () => {
-    const [reviews, setReview] = useReview();
+    const [reviews, setReviews] = useReview();
+    const getThreeReviews = reviews.slice(0, 3);
+    const nevigate = useNavigate();
     return (
         <div>
             <div className='home-container'>
@@ -23,11 +26,14 @@ const Home = () => {
             <h1 className='customer-review'>Customer Reviews (3)</h1>
             <div className='home-review'>
                 {
-                    reviews.map(review => <Books
+                    getThreeReviews.map(review => <Books
                         key={review.id}
                         review={review}
                     ></Books>)
                 }
+            </div>
+            <div>
+                <button onClick={() => nevigate('/reviews')} className='see-more-btn'>See More</button>
             </div>
         </div>
     );
