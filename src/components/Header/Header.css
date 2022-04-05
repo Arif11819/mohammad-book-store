@@ -1,6 +1,11 @@
+.header-link-container {
+    background-color: rgb(250, 242, 226);
+}
+
 nav a {
-    margin-right: 60px;
+    margin-right: 150px;
     font-weight: 500;
+    margin-left: 70px;
 }
 
 nav a:hover {

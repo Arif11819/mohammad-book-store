@@ -14,7 +14,7 @@ const Home = () => {
             <div className='home-container'>
                 <div className='home-header'>
                     <h1>CHOOSE YOUR BEST BOOK</h1>
-                    <h1>& GET 20% OFF!!</h1>
+                    <h1 className='discout-name-text'>& GET 20% OFF!!</h1>
                     <p>We believe that bookstores are essential to a healthy culture. <br /> They’re where authors can connect with readers.</p>
                     <button className='buy-now-btn'>BUY NOW</button>
                 </div>

@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About/About';
 import Blogs from './components/Blogs/Blogs';
 import Dashboard from './components/Dashboard/Dashboard';
+import Error from './components/Error/Error';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Review from './components/Review/Review';
@@ -13,6 +14,7 @@ function App() {
       <h1 className='text-5xl font-medium text-red-600 mt-4 mb-4 mr-12'>MOHAMMAD BOOK STORE</h1>
       <Header></Header>
       <Routes>
+        <Route path='*' element={<Error></Error>}></Route>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/reviews' element={<Review></Review>}></Route>
