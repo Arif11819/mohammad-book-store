@@ -23,7 +23,7 @@ const Home = () => {
                 </div>
 
             </div>
-            <h1 className='customer-review'>Customer Reviews (3)</h1>
+            <h1 className='customer-review mb-8'>Customer Reviews (3)</h1>
             <div className='home-review'>
                 {
                     getThreeReviews.map(review => <Books

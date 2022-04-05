@@ -2,10 +2,22 @@
     width: 40%;
     border-radius: 7px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .books-reviewer {
     border: 1px solid aqua;
     border-radius: 6px;
+}
+
+.reviewer-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+}
+
+.ratings {
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
 }
