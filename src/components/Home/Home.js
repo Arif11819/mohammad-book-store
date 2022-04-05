@@ -1,7 +1,11 @@
 import React from 'react';
+import useReview from '../../hooks/customerReview';
+import Books from '../Books/Books';
+
 import './Home.css'
 
 const Home = () => {
+    const [reviews, setReview] = useReview();
     return (
         <div>
             <div className='home-container'>
@@ -17,6 +21,14 @@ const Home = () => {
 
             </div>
             <h1 className='customer-review'>Customer Reviews (3)</h1>
+            <div className='home-review'>
+                {
+                    reviews.map(review => <Books
+                        key={review.id}
+                        review={review}
+                    ></Books>)
+                }
+            </div>
         </div>
     );
 };
