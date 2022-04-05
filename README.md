@@ -1,9 +1,9 @@
-MOHAMMAD BOOK STORE
-
 
 # Mohammad Book Store
 
-The projects show a book store where we show a book and some reviewer
+The projects show a book store where we show a book and some reviewer.
+
+Live site: https://famous-crepe-2bf875.netlify.app
 
 
 
